@@ -210,7 +210,7 @@ function validateForm()
 
 function verifMail() {
 	var msgemailusr = document.forms["FormDmdMsg"]["msgemailusr"].value;
-	var atpos = msgemailusr.indexOf("@cfao.com");
+	var atpos = msgemailusr.indexOf("@xxxx.com");
 	if (atpos < 1)
 	  {
 	  alert("Not a valid e-mail address");
@@ -224,6 +224,6 @@ function verifMail() {
 
 <?PHP  }  else { 
   echo $No_valid_access_page;
-  header("Refresh:0;url='https://myinfra.cfao.corp/index.php'");  
+  header("Refresh:0;url=''");  
 }
 unset($ValidAccess); ?>
